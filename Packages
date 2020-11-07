@@ -38,26 +38,6 @@ Name: DeadTweak
 Priority: optional
 dev: Dead guy
 
-Package: com.exile90.icleanerpro
-Version: 7.9.0
-Architecture: iphoneos-arm
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/com.exile90.icleanerpro_7.9.0_iphoneos-arm.deb
-Size: 4772402
-MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
-SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
-SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
-Section: Utilities
-Description: The first real iOS system cleaner & optimizer
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Homepage: http://ib-soft.net/icleaner
-Icon: file:///Applications/iCleaner.app/Icon.png
-Name: iCleaner Pro
-
 Package: com.firepo.hmodeis.apphack
 Version: 3.0-1
 Architecture: iphoneos-arm
@@ -74,47 +54,6 @@ Depiction: http://hmodeis.firepo.me/index.php?pid=40
 Installed-Size: 3508
 Name: Apps Hacks
 Tag: cydia::commercial
-
-Package: com.hackyouriphone.watusi
-Version: 1.2.41k
-Architecture: iphoneos-arm
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.hackyouriphone.watusitools (>= 2.1.21), com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap, applist | com.hackyouriphone.applist
-Conflicts: com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools 
-Filename: ./debs/com_hackyouriphone_watusi_1_2_41k_iphoneos-arm.deb
-Size: 4860202
-MD5sum: af2bab792d966fbc22daee305b7c330c
-SHA1: 2a7eec40b9bbda0625e1876799a94d3c509a76b5
-SHA256: 04e8524b703e1b54c9fc9b5722b43d6b07a8f01ab5c309412414c36d12c6f9f6
-Section: HYI - Tweaks
-Description: The all-in-one tweak for WhatsApp Messenger
-Author: Fouad Raheb <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=watusi
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=watusi
-Name: Watusi 2 for WhatsApp
-SileoDepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=watusi
-
-Package: me.alfhaily.rocket
-Version: 3.6.5
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap
-Filename: ./debs/rocketforinstagram_3.6.5.deb
-Size: 5773124
-MD5sum: d2eff9a3dc5e2f5434ff0f3ccd888a33
-SHA1: 250f3af9e732ea3935f992d4e783095d561d2b35
-SHA256: 68cc5e46d02b55e32f8b8a258d159898df2c60887ad02347238ab5c17d989a22
-Section: Tweaks
-Description: posts and view stories anonymously and do much more
-Author: Majd Alfhaily <support@getrocketapp.io>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=rocketforinstagramDp
-Icon: file:///Library/Application%20Support/Rocket/Rocket.bundle/rocket-icon-title@2x.png
-Installed-Size: 27612
-Name: Rocket for Instagram
-Sponsor: thebigboss.org <http://thebigboss.org>
-Tag: purpose::extension, role::enduser, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
-dev: freemanrepo
 
 Package: ru.rejail.cercube
 Version: 5.1.18k
