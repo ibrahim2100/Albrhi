@@ -1,3 +1,64 @@
+Package: org.mr.afsocial
+Version: 1.0-1-1k
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: mobilesubstrate, org.mr.azflibrary | co.azozzalfiras.azflibrary
+Filename: ./debs/AfSocial.deb
+Size: 1771050
+MD5sum: a2a8d013098e24b13d115871678700fe
+SHA1: 58a49bd4c729d0a133bb3608faa15625295f8fbc
+SHA256: c51f1bd80ba8f5cbc7765e9cf9a6f3aba3dc65e89ad033a49687bfe708733062
+Section: Tweaks
+Description: Add more features to Social Media apps.
+Author: Azozz ALFiras
+Depiction: https://mainrepo.org/package/1201
+Icon: https://repo.packix.com/api/Packages/5efffb746668c1001a158771/icon/download?size=medium
+Installed-Size: 4072
+Name: AFSocial
+SileoDepiction: https://mainrepo.org/sileo/1201
+Tag: cydia::commercial
+
+Package: org.mr.azflibrary
+Version: 2.2
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/AfSocialCrack.deb
+Size: 365672
+MD5sum: a8e5a24695a8fe3e019862dc8a43ad01
+SHA1: dacd5816010d9e004ee4f5bd244b8da980a0fa97
+SHA256: 337670bbef253dfbae182b84b924e5d545b326d2cd127c3513ba096b372a9dda
+Section: Development
+Description: This library is dedicated to helping Azozz ALFiras Tweak's
+Author: Azozz ALFiras
+Depiction: https://mainrepo.org/package/1178
+Icon: https://repo.packix.com/api/Packages/5e60d8fd18bc81001a7a31f3/icon/download?size=medium
+Installed-Size: 2056
+Name: azfLibrary
+SileoDepiction: https://mainrepo.org/sileo/1178
+
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.13-2
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Replaces: 
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.13-2_iphoneos-arm.deb
+Size: 682110
+MD5sum: c768fba2f92615fc74df16bca183ec38
+SHA1: f532ab2adf5a72008dc0b41db9cb99c638a9705e
+SHA256: a395d2c0b4a3b39bc2110038e4014e0783fb3baa3f0e83c818c54a3ad15f7798
+Section: Tweaks
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Homepage: 
+Icon: 
+Name: AppStore++
+Priority: optional
+dev: 
+
 Package: com.deadtweak.com
 Version: 1.7.1
 Architecture: iphoneos-arm
@@ -15,4 +76,121 @@ Author: Dead guy
 Name: DeadTweak
 Priority: optional
 dev: Dead guy
+
+Package: com.exile90.icleanerpro
+Version: 7.9.0
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.9.0_iphoneos-arm.deb
+Size: 4772402
+MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
+SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
+SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
+Section: Utilities
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Homepage: http://ib-soft.net/icleaner
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.hackyouriphone.nicepowerx
+Version: 1.0.0.6-2k
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: com.rpetrich.rocketbootstrap, mobilesubstrate, com.julioverne.cracktool4
+Filename: ./debs/com_hackyouriphone_nicepowerx_1_0_0_6-2k_iphoneos-arm.deb
+Size: 2591668
+MD5sum: ef76144782203787336923e0dd454d91
+SHA1: 4f79f48e72c0ddb8148e9bb14531b8b36bcd64f0
+SHA256: 8743c6463cda63cec4c07e43e6d809b43ab36ea08e28c348fa1973ef257da2eb
+Section: HYI - Tweaks
+Description: Bluetooth device - external battery power display and other functions. DOWNLOAD CRACKTOOL FROM REPO https://julio.hackyouriphone.org/
+Author: niceios <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nicepowerx
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=nicepowerx
+Name: NicepowerX
+SileoDepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=nicepowerx
+
+Package: com.hackyouriphone.watusi
+Version: 1.2.41k
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.hackyouriphone.watusitools (>= 2.1.21), com.rpetrich.rocketbootstrap | com.hackyouriphone.rocketbootstrap, applist | com.hackyouriphone.applist
+Conflicts: com.freemanrepo.waplus, com.ahmedbafkir.wadarkmode, com.idevmobile.whatsappblacklist, com.f0u4d.watusi, org.thebigboss.watusi, repo.biteyourapple.net.watusitools 
+Filename: ./debs/com_hackyouriphone_watusi_1_2_41k_iphoneos-arm.deb
+Size: 4860202
+MD5sum: af2bab792d966fbc22daee305b7c330c
+SHA1: 2a7eec40b9bbda0625e1876799a94d3c509a76b5
+SHA256: 04e8524b703e1b54c9fc9b5722b43d6b07a8f01ab5c309412414c36d12c6f9f6
+Section: HYI - Tweaks
+Description: The all-in-one tweak for WhatsApp Messenger
+Author: Fouad Raheb <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=watusi
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=watusi
+Name: Watusi 2 for WhatsApp
+SileoDepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=watusi
+
+Package: com.hackyouriphone.gpscheat
+Version: 1.1-5
+Architecture: iphoneos-arm
+Maintainer: iLeoLion <repo@hackyouriphone.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debs/org_thebigboss_gpscheat_1_1-5_iphoneos-arm(Cracked).deb
+Size: 133726
+MD5sum: 6fb2dba334c46876065709fb35e5e410
+SHA1: 7f3a209b6b7ee742474cadecd42f556e83e19d8d
+SHA256: ddaf104be326b7882a6578a7587a346299e965ebb0b8bc530a71c15ff84511af
+Section: HYI - Tweaks
+Description: Set a Fake Any Location On Device!
+Author: Minuit <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gpscheat
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=gpscheat
+Name: GPSCheat
+
+Package: ru.rejail.cercube
+Version: 5.1.18k
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, ru.rejail.adblockplus
+Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
+Filename: ./debs/ru_rejail_cercube_5_1_18k_iphoneos-arm.deb
+Size: 4279932
+MD5sum: 735e4ea19d1b89a12e4b6e575ed24ade
+SHA1: 886980b3ccf4220f69461f000184266cf7a4818b
+SHA256: 50f0110d3ae142a41d4124d24f3010571aa3197f51a58ca81c693202bbbc3c78
+Section: Tweaks
+Description: Загрузка видео на YouTube и многое другое
+Author: Majd Alfhaily
+Depiction: https://rejail.ru/depiction.php?file=cercube
+Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
+Installed-Size: 14948
+Name: Cercube for YouTube
+Priority: optional
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=cercube
+
+Package: ws.hbang.newterm2
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debs/ws.hbang.newterm2_2.4_iphoneos-arm.deb
+Size: 2183056
+MD5sum: 9de0a2d8c6b2cb9ddc5467cb8e51f54c
+SHA1: d35bebca9f64966f804b68203eb93d73e00decf6
+SHA256: 656946a2844b1fecfb4d3330f7463340d032724cb15313edfc1b3c3b898bfb97
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Installed-Size: 6792
+Name: NewTerm (iOS 10 – 13)
+Support: https://hashbang.productions/support/
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
 
