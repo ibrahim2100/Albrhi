@@ -55,6 +55,38 @@ Installed-Size: 3508
 Name: Apps Hacks
 Tag: cydia::commercial
 
+Package: com.unlimapps.gramplus
+Version: 1.8r-329
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, firmware (>= 7.0), com.unlimapps.uasharedtools (>= 2.2r-94)
+Conflicts: repo.biteyourapple.net.pluscrack, repo.biteyourapple.net.gramplus, com.jake0oo0.instabetter, com.insanj.savegram
+Filename: ./debs/com.unlimapps.gramplus_1.8r-329_iphoneos-arm.deb
+Size: 9601076
+MD5sum: 5b48bdff1d13ba96bdc969ed3eaa2040
+SHA1: ae502177dc8bf37ad12fcec5909c8bb5e9b50ea5
+SHA256: 655daf4fae6a534b602488f3cd8d3924272e5a621cf64d6bdaed081b2f021f00
+Section: Tweaks
+Author: UnlimApps Inc. <support@unlimapps.com>
+Name: Instagram ++
+Tag: purpose::extension, ios7support::1, ios8support::1
+
+Package: net.myclassic.cydown
+Version: 7.1.1
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/net.myclassic.cydown_7.1.1_iphoneos-arm.deb
+Size: 4358002
+MD5sum: da485c952437ea2c6b0bdbc8212bf775
+SHA1: 9ed74555817bed3a0959d88520bcc345bd8a1d4b
+SHA256: f841df13f2b89eab695904dc3c679e6ec4be6380ea20c6bbb8464be9f20921df
+Section: Tweaks
+Author: julioverne <julioverne@me.com>
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
+SileoDepiction: https://myclassic.net/sileo.php?pid=1860
+
 Package: ru.rejail.cercube
 Version: 5.1.18k
 Architecture: iphoneos-arm
