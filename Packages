@@ -90,7 +90,7 @@ Author: lunotech11
 Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 Installed-Size: 2288
 Name: Legizmo
-SileoDepiction: https://myclassic.net/sileo.php?pid=1868
+SileoDepiction:
 
 Package: com.rpgfarm.a-bypass
 Version: 1.3.4
@@ -106,6 +106,21 @@ Section: Tweaks
 Author: Baw Appie <pp121324@gmail.com>
 Installed-Size: 960
 Name: A-Bypass
+
+Package: com.rpgfarm.a-font
+Version: 1.8.2
+Architecture: iphoneos-arm
+Maintainer: Albrhi <ibrahimalrahan01@gmail.com>
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
+Filename: ./debs/com.rpgfarm.a-font_1.8.2_iphoneos-arm.deb
+Size: 492952
+MD5sum: df978f8f9415be84144ef78746f0f655
+SHA1: 9fc015bf0d61a0b01d46903d65fab691793d06fc
+SHA256: 583f2b9e3f20ace489f0253aff2768cea43aece865ddc0c65223380a2d019246
+Section: Tweaks
+Author: Albrhi <ibrahimalrahan01@gmail.com>
+Installed-Size: 2344
+Name: A-Font
 
 Package: com.spark.snowboard
 Version: 1.3.9~Beta3
@@ -250,7 +265,7 @@ SileoDepiction: https://myclassic.net/sileo.php?pid=639
 Package: org.mr.afsocial
 Version: 1.2k
 Architecture: iphoneos-arm
-Maintainer: classic
+Maintainer: Albrhi
 Depends: mobilesubstrate, org.mr.azflibrary (>= 2.9)
 Filename: ./debs/org.mr.afsocial_1.2k_iphoneos-arm.deb
 Size: 2676902
@@ -267,7 +282,7 @@ SileoDepiction: https://myclassic.net/sileo.php?pid=1861
 Package: org.mr.dleasy
 Version: 2.9.3.2k
 Architecture: iphoneos-arm
-Maintainer: Classic
+Maintainer: Albrhi
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, org.mr.crux | com.creaturecoding.crux
 Filename: ./debs/org.mr.dleasy_2.9.3.2k_iphoneos-arm.deb
 Size: 1196458
