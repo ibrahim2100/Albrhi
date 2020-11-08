@@ -110,7 +110,7 @@ Name: A-Bypass
 Package: com.rpgfarm.a-font
 Version: 1.8.2
 Architecture: iphoneos-arm
-Maintainer: Albrhi <ibrahimalrahan01@gmail.com>
+Maintainer: Baw Appie <pp121324@gmail.com>
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
 Filename: ./debs/com.rpgfarm.a-font_1.8.2_iphoneos-arm.deb
 Size: 492952
@@ -118,7 +118,7 @@ MD5sum: df978f8f9415be84144ef78746f0f655
 SHA1: 9fc015bf0d61a0b01d46903d65fab691793d06fc
 SHA256: 583f2b9e3f20ace489f0253aff2768cea43aece865ddc0c65223380a2d019246
 Section: Tweaks
-Author: Albrhi <ibrahimalrahan01@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
 Installed-Size: 2344
 Name: A-Font
 
@@ -188,7 +188,7 @@ Name: AdBlock ++
 Priority: optional
 SileoDepiction:
 
-Package: net.myclassic.cydown
+Package: org.Albrhi.cydown
 Version: 7.1.1
 Architecture: iphoneos-arm
 Maintainer: Julio
@@ -202,9 +202,9 @@ Section: Tweaks
 Author: julioverne <julioverne@me.com>
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
-SileoDepiction: https://myclassic.net/sileo.php?pid=1860
+SileoDepiction:
 
-Package: net.myclassic.powerselector11
+Package: org.Albrhi.powerselector11
 Version: 1.2.9
 Architecture: iphoneos-arm
 Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
@@ -222,11 +222,11 @@ Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@2x.png
 Installed-Size: 2156
 Name: PowerSelector (iOS 11 to 13)
 Pre-Depends: firmware (>= 11.0)
-SileoDepiction: https://myclassic.net/sileo.php?pid=1473
+SileoDepiction:
 Sponsor: thebigboss.org <http://thebigboss.org>
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 
-Package: net.myclassic.reprovision
+Package: org.Albrhi.reprovision
 Version: 0.5.2~EOL
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
@@ -243,9 +243,9 @@ Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 Priority: optional
 Provides: com.matchstic.Extender-Installer
-SileoDepiction: https://myclassic.net/sileo.php?pid=226
+SileoDepiction:
 
-Package: net.myclassic.snapbreakas
+Package: org.Albrhi.snapbreakas
 Version: 1.7.1
 Architecture: iphoneos-arm
 Depends: firmware (>= 10.0), mobilesubstrate, sed
@@ -260,7 +260,24 @@ Author: Tweak
 Icon: https://plus.3z43.com/wp-content/uploads/2020/02/admin-ajax.php_-1.png
 Name: SnapBreak سناب بريك
 Priority: optional
-SileoDepiction: https://myclassic.net/sileo.php?pid=639
+SileoDepiction:
+
+Package: org.Albrhi.twitterpp
+Version: 1.2r-82
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 5.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.2r-61)
+Filename: ./debs/net.myclassic.twitterpp_1.2r-82_iphoneos-arm.deb
+Size: 882858
+MD5sum: b6728aac9c401032ab1c073bd463a8af
+SHA1: af5cc59daf626125673b46dc657d27f6ce4c5caa
+SHA256: 7b3c30d6ff5a28425aa23cb2ab0431475cb5126ce0c0ba38d50292f9128de094
+Section: Tweaks
+Author: UnlimApps Inc <support@unlimapps.com>
+Name: Twitter ++
+Priority: optional
+SileoDepiction:
+Tag: purpose::extension, role::enduser
 
 Package: org.mr.afsocial
 Version: 1.2k
@@ -277,7 +294,7 @@ Author: Azozz ALFiras
 Icon: https://afsocial.azozzalfiras.co/icon.png
 Installed-Size: 6500
 Name: AFSocial
-SileoDepiction: https://myclassic.net/sileo.php?pid=1861
+SileoDepiction:
 
 Package: org.mr.dleasy
 Version: 2.9.3.2k
@@ -294,7 +311,7 @@ Author: AhmedBafkir <prooxy0@gmail.com>
 Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium
 Installed-Size: 136
 Name: DLEasy
-SileoDepiction: https://myclassic.net/sileo.php?pid=1065
+SileoDepiction:
 
 Package: ru.rejail.cercube
 Version: 5.1.18k
