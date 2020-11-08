@@ -141,26 +141,6 @@ Author: UnlimApps Inc. <support@unlimapps.com>
 Name: Instagram ++
 Tag: purpose::extension, ios7support::1, ios8support::1
 
-Package: com.unlimapps.twitterpp
-Version: 1.2r-50
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Depends: firmware (>= 5.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.1r-64)
-Filename: ./debs/com.unlimapps.twitterpp_1.2r-50_iphoneos-arm.deb
-Size: 562540
-MD5sum: 11681a7f11080a350e97f115252a0e9c
-SHA1: d846bb30b2d1eaa9434e1c26deec320303c1d2ca
-SHA256: 4d87590039d9c7908364448c0b6539e0c16db3c9c0a2c6787e8c5a07a9ddf5fc
-Section: Tweaks
-Description: sharing options, long tweets and much more!
-Author: UnlimApps Inc. <support@unlimapps.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=twitterplusplusDp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=twitterplusplusDp
-Installed-Size: 2739
-Name: Twitter ++
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
-dev: i4iphones
-
 Package: com.yourepo.itweakios.carriercrack-global
 Version: 3.1.19
 Architecture: iphoneos-arm
@@ -175,27 +155,6 @@ Section: Tweaks
 Author: iTweakiOS <itweakios@yahoo.com>
 Name: CarrierCrack - Global
 Pre-Depends: firmware (>= 13)
-
-Package: net.angelxwind.appsyncunified
-Version: 84.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Filename: ./debs/net.angelxwind.appsyncunified_84.0_iphoneos-arm.deb
-Size: 42058
-MD5sum: 979c1973c503b9eb4e9e1151d97c4421
-SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
-SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
-Section: Tweaks
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Homepage: https://cydia.akemi.ai/
-Installed-Size: 496
-Name: AppSync Unified
-Provides: appsync
 
 Package: net.myclassic.cydown
 Version: 7.1.1
@@ -304,62 +263,6 @@ Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/downloa
 Installed-Size: 136
 Name: DLEasy
 SileoDepiction: https://myclassic.net/sileo.php?pid=1065
-
-Package: ru.rejail.a-font
-Version: 1.5.1
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1)
-Filename: ./debs/ru.rejail.a-font_1.5.1_iphoneos-arm.deb
-Size: 493574
-MD5sum: 91fcd7432a2605ffb3fef92dbc0a24c4
-SHA1: fcda8657122345cd2e2a3d8f78fe7f749ec6b230
-SHA256: 9c5af048037752ca422ab3a0083c644a446f7792a95c76f1c2776ac8664ce011
-Section: Tweaks
-Description: Изменение шрифта.
-Author: Baw Appie <pp121324@gmail.com>
-Depiction: https://rejail.ru/depiction.php?file=a-font
-Installed-Size: 2342
-Name: A-Font
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=a-font
-
-Package: ru.rejail.adblockplus
-Version: 1.4.1-2
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Filename: ./debs/ru.rejail.adblockplus_1.4.1-2_iphoneos-arm.deb
-Size: 5248
-MD5sum: a7408350f7495625edc157eb0358b289
-SHA1: 34e832f32364fa4072ab97b7482934a71a90c1cc
-SHA256: 051fb74fe4f259d1dbdca4d596c89d49ae7cb153e209900bd1f11db79b7920ac
-Section: Tweaks
-Description: Блокировка рекламы для ++ твиков
-Author: ReJail
-Depiction: https://rejail.ru/depiction.php?file=adblockplus
-Installed-Size: 130
-Name: AdBlock ++
-Priority: optional
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=adblockplus
-
-Package: ru.rj.beta
-Version: 0.2.12
-Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
-Depends: mobilesubstrate, preferenceloader, applist
-Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
-Filename: ./debs/ru.rj.beta_0.2.12_iphoneos-arm.deb
-Size: 42452
-MD5sum: 84d3c55a3f78bb57055465da7095a358
-SHA1: db7f81f42dcdb4b3509cdd36003088ce2bb6e85a
-SHA256: 9b02b5850ac04124b95edbf6bc55456ebada3d0a8f04f12b2287cf3a7693f26b
-Section: Tweaks
-Description: Скрывает джейлбрейк от различных приложений (включая банковские)
-Author: Ryley Angus
-Depiction: https://rejail.ru/depiction.php?file=beta
-Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
-Installed-Size: 593
-Name: Liberty Lite (Beta)
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=beta
 
 Package: ru.rejail.cercube
 Version: 5.1.18k
