@@ -1,8 +1,8 @@
-Origin: A Repo
-Label: A Repo
+Origin: Albrhi®
+Label:  Albrhi®
 Suite: stable
 Version: 1.5
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: A Repo - a cydia repo template
+Description: Albrhi® - a cydia repo template
