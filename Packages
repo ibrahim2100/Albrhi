@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
-Replaces: 
+Replaces:
 Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.13-2_iphoneos-arm.deb
 Size: 682110
 MD5sum: c768fba2f92615fc74df16bca183ec38
@@ -14,18 +14,18 @@ Section: Tweaks
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
 Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Homepage: 
-Icon: 
+Homepage:
+Icon:
 Name: AppStore++
 Priority: optional
-dev: 
+dev:
 
 Package: com.deadtweak.com
 Version: 1.7.1
 Architecture: iphoneos-arm
 Depends: firmware (>= 10.0), mobilesubstrate, sed
 Conflicts: com.cokepokes.snapdecent, com.cokepokes.libphantom, com.cokepokes.spectre, tv.othman.scothman, tv.othman.scothman.ios11, com.pantsthief.snapchatnoclickbait, com.timecompiler.snapchatlog, com.nathaningraham.snapchatlowpowermodeenabler, com.expetelek.keepsnapchatsignedin, com.chloeeisoaky.luminous, com.neinzedd9.scfiltermover, net.ibrahim.scstorytimer, com.ithegentle.snapcheck, com.bengerard.snapselect, com.yungraj.streaknotify, com.n00neimp0rtant.picarchiver, brexit.chloee.snapcolor, com.cokepokes.PhantomFake, com.cokepokes.phantom, com.s0me1ne.betaatweakdisabler, fr.s0me1ne.betasnapbreak, fr.s0me1ne.snapbreak, com.s0me1ne.atweakdisabler
-Replaces: 
+Replaces:
 Filename: ./debs/com.deadtweak.com_1.7.1_iphoneos-arm-post18142.deb
 Size: 5085850
 MD5sum: f6eb394ca1948f7807149633df791d2d
@@ -168,8 +168,6 @@ SHA256: af3d8f435cbc3c665d1ee22234ce9467ed9eff1ae5864a4a9ffefcc6ba2058d0
 Section: iOS14
 Description: Adblock for ++ Tweaks
 Author: ReJail
-Depiction: https://mohadu31.com/pack/adblockplus
-Icon: https://guofenpai.github.io/repo/icon/gfp.png
 Name: AdBlock ++
 
 Package: com.yourepo.mohadu31.appdatamanager
@@ -184,7 +182,6 @@ SHA256: 97cea7520053e3d279ebc62fb1cce94a496e5d3bc6d7b27cb121af2ea9607e1d
 Section: iOS14
 Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
 Author: TIGI Software
-Depiction: https://mohadu31.com/pack/appdatamanager
 Name: Apps Manager
 
 Package: com.yourepo.mohadu31.appsyncunifiednochimera
@@ -201,7 +198,6 @@ SHA256: d72a48b812a2c8b3e95395e12d1aa7cf444d2d5cc409785b9bcb588b60a35c8f
 Section: iOS14
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Linus Yang, Karen/あけみ
-Depiction: https://mohadu31.com/pack/appsyncunifiednochimera
 Name: AppSync Unified (iOS 5 to iOS 14.2)
 
 Package: com.yourepo.mohadu31.ayecon
@@ -217,7 +213,6 @@ SHA256: b434c412df4ecd23b32b9a86d3bebb6d3ebd65c466bdda0a4323c1c5911dcdce
 Section: iOS14
 Description: ayecon Theme iOS8 To iOS11
 Author: aJBbo
-Depiction: https://mohadu31.com/pack/ayecon
 Name: Ayecon
 
 Package: com.yourepo.mohadu31.cr4shed
@@ -233,7 +228,6 @@ SHA256: 251239a4bf04a59e0e3645142271751ce5f943542c988713bd818efb22a1011d
 Section: iOS14
 Description: A modern crash reporter for iOS
 Author: Muirey03
-Depiction: https://mohadu31.com/pack/cr4shed
 Name: Cr4shed
 
 Package: com.yourepo.mohadu31.crackerxinew
@@ -249,8 +243,6 @@ SHA256: f115930da1838f35f644381fb4814d7bcaf6d36fb160209da6f0fc544060c096
 Section: iOS14
 Description: Decrypts iOS Apps
 Author: SarahH12099
-Depiction: https://mohadu31.com/pack/crackerxinew
-Icon: file:///Applications/crackerxi.app/AppIcon.png
 Name: CrackerXI+ New
 
 Package: com.yourepo.mohadu31.cylinderios10
@@ -266,8 +258,6 @@ SHA256: 576b88c979fff97de95fc073e0d3a5ec2a483a9b851708f434ef5ff849a9c272
 Section: iOS14
 Description: Make your icons dance
 Author: Reed Weichler
-Depiction: https://mohadu31.com/pack/cylinderios10
-Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
 Name: Cylinder (iOS10 to 13)
 
 Package: com.yourepo.mohadu31.filza64bit
@@ -284,7 +274,6 @@ SHA256: 3a637a6c88005c8ea381cc7f9a575a94c1f04fefa1d3ce9b63b5d1f7da82d878
 Section: iOS14
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
-Depiction: https://mohadu31.com/pack/filza64bit
 Name: Filza File Manager 64-bit
 
 Package: com.yourepo.mohadu31.fiveicondock
@@ -300,7 +289,6 @@ SHA256: df248bd89dedbd5946a2d29516d6cc469e7c09dbae59d1f1c7974be453f8554a
 Section: iOS14
 Description: An awesome MobileSubstrate tweak!
 Author: Minazuki
-Depiction: https://mohadu31.com/pack/fiveicondock
 Name: FiveIconDock
 
 Package: com.yourepo.mohadu31.flex3
@@ -317,7 +305,6 @@ SHA256: 23972e322a47d5d03cc2512678d076dbb5db8528e8bec192c8a3b84e9638757e
 Section: iOS14
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author: John Coates
-Depiction: https://mohadu31.com/pack/flex3
 Name: Flex 3 Beta
 
 Package: com.yourepo.mohadu31.localiapstore13
@@ -333,7 +320,6 @@ SHA256: 6d047fef4a38f5249c77f06b87b8662f1f90c31dc9c2ffc485a67cd97f777880
 Section: iOS14
 Description: Free In-App Purchases include app IOS 13 bypass Lock iCloud (bypass verify Passcode, Touch ID or Face ID).  No options to configure!
 Author: pxcex
-Depiction: https://mohadu31.com/pack/localiapstore13
 Name: LocalIAPStore13
 
 Package: com.yourepo.mohadu31.picaboodz
@@ -349,7 +335,6 @@ SHA256: 09d34fba103fcaf18ff64774f679483e91ed8e9add451ff3f9c5436f709e63ea
 Section: iOS14
 Description: the future of snapchat tweaks
 Author: iMokhles
-Depiction: https://mohadu31.com/pack/picaboodz
 Name: DzSnap (iOS 10 to 13)
 
 Package: com.yourepo.mohadu31.realcc
@@ -365,7 +350,6 @@ SHA256: 4509dc38e36650abc802e1f70e3a69ea999c4ee301adf58234df671e279eb6d9
 Section: iOS14
 Description: Actually disable Wi-Fi from the iOS 11 CC
 Author: Jake James
-Depiction: https://mohadu31.com/pack/realcc
 Name: RealCC
 
 Package: com.yourepo.itweakios.carriercrack-global
@@ -567,4 +551,3 @@ Installed-Size: 6792
 Name: NewTerm (iOS 10 – 13)
 Support: https://hashbang.productions/support/
 Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-
