@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
-Replaces:
+Replaces: 
 Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.13-2_iphoneos-arm.deb
 Size: 682110
 MD5sum: c768fba2f92615fc74df16bca183ec38
@@ -14,18 +14,18 @@ Section: Tweaks
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
 Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Homepage:
-Icon:
+Homepage: 
+Icon: 
 Name: AppStore++
 Priority: optional
-dev:
+dev: 
 
 Package: com.deadtweak.com
 Version: 1.7.1
 Architecture: iphoneos-arm
 Depends: firmware (>= 10.0), mobilesubstrate, sed
 Conflicts: com.cokepokes.snapdecent, com.cokepokes.libphantom, com.cokepokes.spectre, tv.othman.scothman, tv.othman.scothman.ios11, com.pantsthief.snapchatnoclickbait, com.timecompiler.snapchatlog, com.nathaningraham.snapchatlowpowermodeenabler, com.expetelek.keepsnapchatsignedin, com.chloeeisoaky.luminous, com.neinzedd9.scfiltermover, net.ibrahim.scstorytimer, com.ithegentle.snapcheck, com.bengerard.snapselect, com.yungraj.streaknotify, com.n00neimp0rtant.picarchiver, brexit.chloee.snapcolor, com.cokepokes.PhantomFake, com.cokepokes.phantom, com.s0me1ne.betaatweakdisabler, fr.s0me1ne.betasnapbreak, fr.s0me1ne.snapbreak, com.s0me1ne.atweakdisabler
-Replaces:
+Replaces: 
 Filename: ./debs/com.deadtweak.com_1.7.1_iphoneos-arm-post18142.deb
 Size: 5085850
 MD5sum: f6eb394ca1948f7807149633df791d2d
@@ -50,7 +50,7 @@ Size: 4772402
 MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
 SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
 SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
-Section: Tweaks
+Section: Utilities
 Description: The first real iOS system cleaner & optimizer
 Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
@@ -90,7 +90,7 @@ Author: lunotech11
 Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 Installed-Size: 2288
 Name: Legizmo
-
+SileoDepiction: https://myclassic.net/sileo.php?pid=1868
 
 Package: com.rpgfarm.a-bypass
 Version: 1.3.4
@@ -156,10 +156,10 @@ Author: UnlimApps Inc. <support@unlimapps.com>
 Name: Instagram ++
 Tag: purpose::extension, ios7support::1, ios8support::1
 
-Package: org.Albrhi.adblockplus
+Package: com.yourepo.mohadu31.adblockplus
 Version: 1.4.1-2
 Architecture: iphoneos-arm
-Maintainer: ReJail
+Maintainer: Mohadu313
 Filename: ./debs/com.yourepo.mohadu31.adblockplus_1.4.1-2_iphoneos-arm14.deb
 Size: 8342
 MD5sum: 9c7f4d1126dba1cbe6f5a30652cd44cc
@@ -168,12 +168,14 @@ SHA256: af3d8f435cbc3c665d1ee22234ce9467ed9eff1ae5864a4a9ffefcc6ba2058d0
 Section: iOS14
 Description: Adblock for ++ Tweaks
 Author: ReJail
-Name: AdBlock ++ Ios14 Support
+Depiction: https://mohadu31.com/pack/adblockplus
+Icon: https://guofenpai.github.io/repo/icon/gfp.png
+Name: AdBlock ++
 
-Package: org.Albrhi.appdatamanager
+Package: com.yourepo.mohadu31.appdatamanager
 Version: 1.6.0-2
 Architecture: iphoneos-arm
-Maintainer: TIGI Software
+Maintainer: Mohadu313
 Filename: ./debs/com.yourepo.mohadu31.appdatamanager_1.6.0-2_iphoneos-arm14.deb
 Size: 3663834
 MD5sum: 76ad3527f0bcece6387b26848018fb01
@@ -182,12 +184,13 @@ SHA256: 97cea7520053e3d279ebc62fb1cce94a496e5d3bc6d7b27cb121af2ea9607e1d
 Section: iOS14
 Description: This tool provides the way to WIPE, BACKUP, RESTORE AppData for installed Apps
 Author: TIGI Software
-Name: Apps Manager Ios14 Support
+Depiction: https://mohadu31.com/pack/appdatamanager
+Name: Apps Manager
 
-Package: org.Albrhi.appsyncunifiednochimera
+Package: com.yourepo.mohadu31.appsyncunifiednochimera
 Version: 84.0
 Architecture: iphoneos-arm
-Maintainer: Linus Yang, Karen/あけみ
+Maintainer: Mohadu313
 Depends: firmware (>= 5.0), firmware (<= 14.2), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Filename: ./debs/com.yourepo.mohadu31.appsyncunifiednochimera_84.0_iphoneos-arm14.deb
@@ -198,12 +201,13 @@ SHA256: d72a48b812a2c8b3e95395e12d1aa7cf444d2d5cc409785b9bcb588b60a35c8f
 Section: iOS14
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
 Author: Linus Yang, Karen/あけみ
+Depiction: https://mohadu31.com/pack/appsyncunifiednochimera
 Name: AppSync Unified (iOS 5 to iOS 14.2)
 
-Package: org.Albrhi.ayecon
+Package: com.yourepo.mohadu31.ayecon
 Version: 1.4.2
 Architecture: iphoneos-arm
-Maintainer: aJBbo
+Maintainer: Mohadu313
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: ./debs/com.yourepo.mohadu31.ayecon_1.4.2_iphoneos-arm14.deb
 Size: 6702754
@@ -213,12 +217,13 @@ SHA256: b434c412df4ecd23b32b9a86d3bebb6d3ebd65c466bdda0a4323c1c5911dcdce
 Section: iOS14
 Description: ayecon Theme iOS8 To iOS11
 Author: aJBbo
-Name: Ayecon Ios14 Support
+Depiction: https://mohadu31.com/pack/ayecon
+Name: Ayecon
 
-Package: org.Albrhi.cr4shed
+Package: com.yourepo.mohadu31.cr4shed
 Version: 4.1.3
 Architecture: iphoneos-arm
-Maintainer: Muirey03
+Maintainer: Mohadu313
 Depends: mobilesubstrate, com.yourepo.mohadu31.libmryipc, com.cokepokes.libnotifications (>= 0.2-2), cy+cpu.arm64 | cy+cpu.arm64e, firmware (>= 9.0), ws.hbang.common (>= 1.11)
 Filename: ./debs/com.yourepo.mohadu31.cr4shed_4.1.3_iphoneos-arm14.deb
 Size: 187656
@@ -228,12 +233,13 @@ SHA256: 251239a4bf04a59e0e3645142271751ce5f943542c988713bd818efb22a1011d
 Section: iOS14
 Description: A modern crash reporter for iOS
 Author: Muirey03
-Name: Cr4shed Ios14 Support
+Depiction: https://mohadu31.com/pack/cr4shed
+Name: Cr4shed
 
-Package: org.Albrhi.crackerxinew
+Package: com.yourepo.mohadu31.crackerxinew
 Version: 1.1.16
 Architecture: iphoneos-arm
-Maintainer: SarahH12099
+Maintainer: Mohadu313
 Depends: firmware (>= 11.0)
 Filename: ./debs/com.yourepo.mohadu31.crackerxinew_1.1.16_iphoneos-arm14.deb
 Size: 9960950
@@ -243,12 +249,14 @@ SHA256: f115930da1838f35f644381fb4814d7bcaf6d36fb160209da6f0fc544060c096
 Section: iOS14
 Description: Decrypts iOS Apps
 Author: SarahH12099
-Name: CrackerXI+ New Ios14 Support
+Depiction: https://mohadu31.com/pack/crackerxinew
+Icon: file:///Applications/crackerxi.app/AppIcon.png
+Name: CrackerXI+ New
 
-Package: org.Albrhi.cylinderios10
+Package: com.yourepo.mohadu31.cylinderios10
 Version: 1.1
 Architecture: iphoneos-arm
-Maintainer:Reed Weichler
+Maintainer: Mohadu313
 Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Filename: ./debs/com.yourepo.mohadu31.cylinderios10_1.1_iphoneos-arm14.deb
 Size: 300228
@@ -258,12 +266,14 @@ SHA256: 576b88c979fff97de95fc073e0d3a5ec2a483a9b851708f434ef5ff849a9c272
 Section: iOS14
 Description: Make your icons dance
 Author: Reed Weichler
-Name: Cylinder (iOS10 to 14.2)
+Depiction: https://mohadu31.com/pack/cylinderios10
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+Name: Cylinder (iOS10 to 13)
 
-Package: org.Albrhi.filza64bit
+Package: com.yourepo.mohadu31.filza64bit
 Version: 3.8.1-4
 Architecture: iphoneos-arm
-Maintainer: TIGI Software
+Maintainer: Mohadu313
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
 Filename: ./debs/com.yourepo.mohadu31.filza64bit_3.8.1-4_iphoneos-arm14.deb
@@ -274,12 +284,13 @@ SHA256: 3a637a6c88005c8ea381cc7f9a575a94c1f04fefa1d3ce9b63b5d1f7da82d878
 Section: iOS14
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
-Name: Filza File Manager 64-bit Ios14 Support
+Depiction: https://mohadu31.com/pack/filza64bit
+Name: Filza File Manager 64-bit
 
-Package: org.Albrhi.fiveicondock
+Package: com.yourepo.mohadu31.fiveicondock
 Version: 0.0.1
 Architecture: iphoneos-arm
-Maintainer: Minazuki
+Maintainer: Mohadu313
 Depends: mobilesubstrate
 Filename: ./debs/com.yourepo.mohadu31.fiveicondock_0.0.1_iphoneos-arm14.deb
 Size: 3448
@@ -289,12 +300,13 @@ SHA256: df248bd89dedbd5946a2d29516d6cc469e7c09dbae59d1f1c7974be453f8554a
 Section: iOS14
 Description: An awesome MobileSubstrate tweak!
 Author: Minazuki
-Name: FiveIconDock Ios14 Support
+Depiction: https://mohadu31.com/pack/fiveicondock
+Name: FiveIconDock
 
-Package: org.Albrhi.flex3
+Package: com.yourepo.mohadu31.flex3
 Version: 1:3~Beta97
 Architecture: iphoneos-arm
-Maintainer: John Coates
+Maintainer: Mohadu313
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Filename: ./debs/com.yourepo.mohadu31.flex3_1%3a3~Beta97_iphoneos-arm14.deb
@@ -305,12 +317,13 @@ SHA256: 23972e322a47d5d03cc2512678d076dbb5db8528e8bec192c8a3b84e9638757e
 Section: iOS14
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author: John Coates
-Name: Flex 3 Beta Ios14 Support
+Depiction: https://mohadu31.com/pack/flex3
+Name: Flex 3 Beta
 
-Package: org.Albrhi.localiapstore13
+Package: com.yourepo.mohadu31.localiapstore13
 Version: 0.0.2
 Architecture: iphoneos-arm
-Maintainer: pxcex
+Maintainer: Mohadu313
 Depends: mobilesubstrate
 Filename: ./debs/com.yourepo.mohadu31.localiapstore13_0.0.2_iphoneos-arm14.deb
 Size: 2706
@@ -320,9 +333,10 @@ SHA256: 6d047fef4a38f5249c77f06b87b8662f1f90c31dc9c2ffc485a67cd97f777880
 Section: iOS14
 Description: Free In-App Purchases include app IOS 13 bypass Lock iCloud (bypass verify Passcode, Touch ID or Face ID).  No options to configure!
 Author: pxcex
-Name: LocalIAPStore13 Ios14 Support
+Depiction: https://mohadu31.com/pack/localiapstore13
+Name: LocalIAPStore13
 
-Package: org.Albrhi.picaboodz
+Package: com.yourepo.mohadu31.picaboodz
 Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: Mohadu313
@@ -335,12 +349,13 @@ SHA256: 09d34fba103fcaf18ff64774f679483e91ed8e9add451ff3f9c5436f709e63ea
 Section: iOS14
 Description: the future of snapchat tweaks
 Author: iMokhles
-Name: DzSnap (iOS 10 to 14)
+Depiction: https://mohadu31.com/pack/picaboodz
+Name: DzSnap (iOS 10 to 13)
 
-Package: org.Albrhi.realcc
+Package: com.yourepo.mohadu31.realcc
 Version: 1.0.2
 Architecture: iphoneos-arm
-Maintainer: Jake James
+Maintainer: Mohadu313
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.yourepo.mohadu31.realcc_1.0.2_iphoneos-arm14.deb
 Size: 4050
@@ -350,7 +365,8 @@ SHA256: 4509dc38e36650abc802e1f70e3a69ea999c4ee301adf58234df671e279eb6d9
 Section: iOS14
 Description: Actually disable Wi-Fi from the iOS 11 CC
 Author: Jake James
-Name: RealCC Ios14 Support
+Depiction: https://mohadu31.com/pack/realcc
+Name: RealCC
 
 Package: com.yourepo.itweakios.carriercrack-global
 Version: 3.1.19
@@ -370,20 +386,21 @@ Pre-Depends: firmware (>= 13)
 Package: github.io.gfp.adblockplus
 Version: 1.4.1-2
 Architecture: iphoneos-arm
-Maintainer: Albrhi
+Maintainer: Classic
 Filename: ./debs/github.io.gfp.adblockplus_1.4.1-2_iphoneos-arm.deb
 Size: 8360
 MD5sum: d45904f3955496266890f010b4d94303
 SHA1: 889abae4530db3d37a2bd0eb83d30dd944d90355
 SHA256: 1a631534d71f04047aea3208afc7348d8b8016b90564a54e400c3963fb582906
 Section: Tweaks
-Author: Albrhi
+Author: classic
 Icon: https://guofenpai.github.io/repo/icon/gfp.png
 Installed-Size: 130
 Name: AdBlock ++
 Priority: optional
+SileoDepiction: https://myclassic.net/sileo.php?pid=962
 
-Package: org.Albrhi.cydown
+Package: net.myclassic.cydown
 Version: 7.1.1
 Architecture: iphoneos-arm
 Maintainer: Julio
@@ -397,9 +414,9 @@ Section: Tweaks
 Author: julioverne <julioverne@me.com>
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
+SileoDepiction: https://myclassic.net/sileo.php?pid=1860
 
-
-Package: org.Albrhi.powerselector11
+Package: net.myclassic.powerselector11
 Version: 1.2.9
 Architecture: iphoneos-arm
 Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
@@ -411,16 +428,17 @@ Size: 207244
 MD5sum: 3c4c5924baccabd3e47cd3528730fffb
 SHA1: 45e9d3c0a83665343a06dc4e8b1371971fd26c87
 SHA256: 72adcd553902d158f9aeaeb4fedd3185d827ae947e9a8f92931df5fdcae3acee
-Section: Tweaks
+Section: Utilities
 Author: ichitaso <willfeeltips+ps11@gmail.com>
 Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@2x.png
 Installed-Size: 2156
 Name: PowerSelector (iOS 11 to 13)
 Pre-Depends: firmware (>= 11.0)
+SileoDepiction: https://myclassic.net/sileo.php?pid=1473
 Sponsor: thebigboss.org <http://thebigboss.org>
 Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
 
-Package: org.Albrhi.reprovision
+Package: net.myclassic.reprovision
 Version: 0.5.2~EOL
 Architecture: iphoneos-arm
 Maintainer: Matt Clarke <matt@incendo.ws>
@@ -431,15 +449,15 @@ Size: 14406300
 MD5sum: fe4311bd2f278f3faa95054637e1ed44
 SHA1: d1cd3d102599b5cb9b9da2dcb79a5061a2b0f9bf
 SHA256: 51a194d2fa1c254bc39db86088339e1a1e8d010a26fb0445bd4f09f08242aec2
-Section: Tweaks
+Section: System
 Author: Matt Clarke <matt@incendo.ws>
 Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 Priority: optional
 Provides: com.matchstic.Extender-Installer
+SileoDepiction: https://myclassic.net/sileo.php?pid=226
 
-
-Package: org.Albrhi.snapbreakas
+Package: net.myclassic.snapbreakas
 Version: 1.7.1
 Architecture: iphoneos-arm
 Depends: firmware (>= 10.0), mobilesubstrate, sed
@@ -454,9 +472,9 @@ Author: Tweak
 Icon: https://plus.3z43.com/wp-content/uploads/2020/02/admin-ajax.php_-1.png
 Name: SnapBreak سناب بريك
 Priority: optional
+SileoDepiction: https://myclassic.net/sileo.php?pid=639
 
-
-Package: Org.Albrhi.twitterpp
+Package: net.myclassic.twitterpp
 Version: 1.2r-82
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -470,12 +488,13 @@ Section: Tweaks
 Author: UnlimApps Inc <support@unlimapps.com>
 Name: Twitter ++
 Priority: optional
+SileoDepiction: https://myclassic.net/sileo.php?pid=151
 Tag: purpose::extension, role::enduser
 
 Package: org.mr.afsocial
 Version: 1.2k
 Architecture: iphoneos-arm
-Maintainer: Albrhi
+Maintainer: classic
 Depends: mobilesubstrate, org.mr.azflibrary (>= 2.9)
 Filename: ./debs/org.mr.afsocial_1.2k_iphoneos-arm.deb
 Size: 2676902
@@ -487,12 +506,12 @@ Author: Azozz ALFiras
 Icon: https://afsocial.azozzalfiras.co/icon.png
 Installed-Size: 6500
 Name: AFSocial
-
+SileoDepiction: https://myclassic.net/sileo.php?pid=1861
 
 Package: org.mr.dleasy
 Version: 2.9.3.2k
 Architecture: iphoneos-arm
-Maintainer: Albrhi
+Maintainer: Classic
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap, org.mr.crux | com.creaturecoding.crux
 Filename: ./debs/org.mr.dleasy_2.9.3.2k_iphoneos-arm.deb
 Size: 1196458
@@ -504,7 +523,7 @@ Author: AhmedBafkir <prooxy0@gmail.com>
 Icon: https://repo.packix.com/api/Packages/5d093ef0ae6eb7001bab54e3/icon/download?size=medium
 Installed-Size: 136
 Name: DLEasy
-
+SileoDepiction: https://myclassic.net/sileo.php?pid=1065
 
 Package: ru.rejail.cercube
 Version: 5.1.18k
@@ -539,7 +558,7 @@ Size: 2183056
 MD5sum: 9de0a2d8c6b2cb9ddc5467cb8e51f54c
 SHA1: d35bebca9f64966f804b68203eb93d73e00decf6
 SHA256: 656946a2844b1fecfb4d3330f7463340d032724cb15313edfc1b3c3b898bfb97
-Section: Tweaks
+Section: Terminal Support
 Description: A powerful terminal app for iOS
 Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
@@ -548,3 +567,4 @@ Installed-Size: 6792
 Name: NewTerm (iOS 10 – 13)
 Support: https://hashbang.productions/support/
 Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+
