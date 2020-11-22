@@ -1,7 +1,7 @@
-Package: ru.rejail.colorbadges
+Package: org.Albrhi.colorbadges
 Version: 1.4.5
 Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
+Maintainer: Albrhi
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
 Conflicts: org.thebigboss.colorbadges
 Replaces: org.thebigboss.colorbadges
@@ -11,13 +11,10 @@ MD5sum: 604c2b17571961ecc27ff85bc8778e63
 SHA1: 3d57738a2d22cf7c5541f967bc3bed2313fc51de
 SHA256: 36d91d4c9c8fc0ea49cd09177e0f8e2418f9b200bd50c5d8bdd3c738a2209966
 Section: Tweaks
-Description: Окраска бейджей уведомлений
 Author: David Goldman <help@golddavid.com>
-Depiction: https://rejail.ru/depiction.php?file=colorbadges
 Icon: file:///Library/PreferenceBundles/cbprefs.bundle/CBCydiaIcon.png
 Installed-Size: 537
-Name: ColorBadges Rus
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=colorbadges
+Name: ColorBadges Last
 
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.13-2
