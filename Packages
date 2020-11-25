@@ -514,7 +514,7 @@ Package: Org.Albrhi.cercube
 Version: 5.1.19k
 Architecture: iphoneos-arm
 Maintainer: Albrhi <rejail@rejail.ru>
-Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, ru.rejail.adblockplus
+Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap,
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
 Filename: ./debs/ru.rejail.cercube_5.1.18k_iphoneos-arm.deb
 Size: 5632784
