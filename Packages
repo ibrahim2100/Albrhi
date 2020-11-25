@@ -510,10 +510,10 @@ Name: DLEasy
 SileoDepiction: https://myclassic.net/sileo.php?pid=1065
 
 
-Package: ru.rejail.cercube
-Version: 5.1.18k
+Package: Org.Albrhi.cercube
+Version: 5.1.19k
 Architecture: iphoneos-arm
-Maintainer: ReJail <rejail@rejail.ru>
+Maintainer: Albrhi <rejail@rejail.ru>
 Depends: firmware (>= 9.0), mobilesubstrate, com.rpetrich.rocketbootstrap, ru.rejail.adblockplus
 Conflicts: me.freemanrepo.cercube, com.unlimapps.ytpp, com.yourepo.goldcydia.cercube3ios789, com.yourepo.mohadu31.cercube3ios789, com.yourepo.canolli.cercube3ios789, com.repo.xarold.com.cercube3, com.hackyouriphone.cercube3, com.biteyourapple.net.cercube3, com.yourepo.arabicydia.cercube2, me.alfhaily.adblockforyoutube, me.alfhaily.cercube.lib, com.pulandres.cercubecrack
 Filename: ./debs/ru.rejail.cercube_5.1.18k_iphoneos-arm.deb
@@ -522,14 +522,11 @@ MD5sum: 020c0849b455a315f43a8fac018508a0
 SHA1: f9baa6a45d185c08225d9d00b8cb1b189beb2a0d
 SHA256: ee55af401119371302c454e03ff28114352cdc6695c0a73c60ab1b121493ed77
 Section: Tweaks
-Description: Загрузка видео на YouTube и многое другое
 Author: Majd Alfhaily
-Depiction: https://rejail.ru/depiction.php?file=cercube
 Icon: https://apt.alfhaily.me/cdn/assets/cercube-icon.png
 Installed-Size: 14948
-Name: Cercube for YouTube
+Name: Cercube for YouTube Albrhi
 Priority: optional
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=cercube
 
 Package: ru.rejail.colorbadges
 Version: 1.4.5
