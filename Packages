@@ -548,7 +548,7 @@ Installed-Size: 537
 Name: ColorBadges
 
 
-Package: ru.rejail.cercube
+Package: org.Albrhi.cercube
 Version: 5.1.19k
 Architecture: iphoneos-arm
 Maintainer: Albrhi
